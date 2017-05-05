@@ -1,0 +1,155 @@
+/* CSS Document */
+@charset "utf-8";
+/* CSS Document */
+body,ul,div,ol,p,textarea{ margin:0; padding:0;}
+#left { float:left; width:100%; border:1px #e7e7e7 dotted; border-top:none; border-left:none; border-right:none;}
+#box1 { overflow-y:auto;}
+body { min-width:1280px;}
+.container-fluid { position:relative;}
+/*.navbar-header { padding-left:20px;}*/
+
+/*最大宽度修改*/
+.bbbox { width:1000px; height:auto; border:1px #999 solid; margin:0 auto; box-sizing:border-box; box-shadow:0px 0px 2px 1px #999; border-top:none; }
+
+
+
+
+
+
+.navbar { margin-top:5px; position:relative; z-index:4;}
+
+#img1,#change { width:60px; height:60px; border:1px #CCC solid; vertical-align:middle; border-radius:5px; position:absolute; top:8px; left:-120px;}
+#img1 { margin-left:5px;}
+
+
+#change { top:30px; left:-220px; width:100px; height:28px; line-height:28px; border-radius:0; display:none;}
+
+ul,ol { padding-left:0;}
+li{ list-style:none;}
+.logo { width:100%; height:100px; text-align:left; line-height:100px; margin-top:12px;}
+.logo .l1 { width:18%;}
+.logo li { display:inline-block;}
+.out { width:100%;}
+.innerbox { width:980px; height:auto; margin:0 auto; background:#e7e7e7;}
+
+.boxleft { position:relative; width:1024px; height:auto; margin:0 auto;}
+.topout { position:relative; width:800px;}
+.boxleft .top { position:absolute; top:-140px; left:240px; z-index:5;}
+.boxleft .topright { width:150px; height:150px; border-radius:50%; box-shadow:2px 1px 2px 1px #FCC; position:absolute; top:-110px; left:860px; text-align:center; line-height:26px; background:#9CF; z-index:6;}
+.boxleft .topright .inright { width:140px; height:140px; margin:0 auto; background:#FFF; border-radius:50%; margin-top:5px; position:relative;}
+.round,.ro { width:26px; height:26px; background:#fafafa; position:absolute; border-radius:50%; top:57px; left:57px; cursor:pointer;  }
+.r0 { border:2px #FFC solid; animation:r0 1.5s ease-out infinite;}
+
+#r1 { top:20px; background:#390;}
+#r2 { top:94px; background:#FFB66C;}
+#r3 { top:57px; left:24px; background:#0080C0;}
+#r4 { top:57px; left:90px; background:#F69;}
+
+.boxleft .topright  .p1 { margin-top:52px;}
+
+.pb,.screen{ width:860px; height:568px; border:1px #949494 solid; border-radius:8px; margin:0 auto; background:#f5f5f5; }
+.screen { width:840px; height:552px; margin-top:7px; background:#FFF;}
+.screen1 { width:830px; height:460px; border:1px #d7d7d7 solid; margin:0 auto; margin-top:5px; }
+.send { text-align:center;}
+.send li { display:inline-block; width:auto; height:70px; position:relative;}
+/*.send li input { line-height:60px;}*/
+/*#text { margin-top:4px;}*/
+#btn,#clear { width:72px; height:58px; border:1px #949494 solid; background:#f5f5f5; border-radius:5px; position:absolute; top:8px; left:170px;}
+#clear { left:245px; border:1px #FCC solid;}
+#text { width:220px; height:58px; position:absolute; top:8px; left:-52px;}
+
+.outstage { width:100%; height:880px; margin-top:160px; padding-left:15px;}
+.innerstage { width:100%; height:680px; background:#FFF; border:1px #e7e7e7 solid; margin:0 auto; border-top:none; border-left:none; border-right:none;}
+.wrap { width:100%; height:88px; background:#FCC; margin-top:23px;}
+.lin { width:580px; height:1px; background:#e7e7e7; margin-top:8px; box-shadow:1px 1px 1px 1px #666; transform:skewX(-18deg); opacity:.5;}
+.lin1 { margin-left:414px; width:140px;}
+.lin2 { margin-left:400px; width:180px;}
+.lin3 { margin-left:400px; width:220px;}
+.lin4 { margin-left:380px; width:280px;}
+.lin5 { margin-left:280px; width:380px;}
+.lin6 { margin-left:140px;width:460px;}
+.lin7 { margin-left:200px; width:580px;}
+.lin8 { margin-left:320px;}
+.lin9 { margin-left:240px;}
+.lin10 { margin-left:200px;}
+.lin11 { margin-left:150px;}
+.lin12 { margin-left:100px;}
+.lin13 { margin-left:50px;}
+.lin14 { margin-left:30px;}
+.lin15 { margin-left:15px;}
+.lin16 { margin-left:100px;}
+.lin17 { margin-left:130px;}
+.lin18 { margin-left:150px;}
+.lin19 { margin-left:180px;}
+.lin20 { margin-left:160px;}
+.lin21 { margin-left:200px;}
+.lin22 { margin-left:260px;}
+.lin23 { margin-left:300px;}
+.lin24 { margin-left:340px;}
+.lin25 { margin-left:360px;}
+.lin26 { margin-left:200px; width:700px;}
+.lin27 { margin-left:100px;width:780px; position:relative; transform:skewX(0deg); }
+.lin28 { margin-left:10px;width:780px;}
+
+.lin27 .advance,.lin27 .know,.lin27 .human,.lin27 .step{ width:80px; height:80px; border-radius:100px; border:2px #e7e7e7 solid; position:absolute; top:-210px; left:-75px;  box-shadow:1px 1px 1px 1px #000; }
+.lin27 .advance h3,.lin27 .know h2,.lin27 .step h3 { margin-top:12px; color:#000; text-align:center; line-height:60px;}
+.lin27 .know{ top:-98px; left:-85px; width:106px; height:106px; background:#CF0; animation:col1 2.5s ease-out infinite;}
+.lin27 .know h2 { line-height:80px;}
+.lin27 .human { top:-130px; left:730px; width:90px; height:90px; background:#ABFEDF; animation:col2 2.5s ease-out infinite;}
+.lin27 .human h3 { line-height:80px; text-align:center; }
+.lin27 .step { top:-261px; left:560px; background:#F9F; animation:col4 1.5s ease-out infinite; }
+.lin27 .advance { background:#FFB5B5; animation:col3 2s ease-out infinite;}
+.lin27 .openbook { width:180px; height:168px; background:url(/./img/openbook.gif) no-repeat center; position:absolute; top:-350px; left:310px;}
+
+.foot { margin:0 auto; width:1024px; height:120px; margin-top:180px; text-align:center;}
+
+/*js获取图片路径，因Fis不认JS路径，故借用CSS实现*/
+.jsimg1 { background:url(/./img/biaoqing1.png);}
+.jsimg2 { background:url(/./img/biaoqing2.png);}
+
+
+
+
+@keyframes col1 {
+	0%{ background:#CF0;}
+	50% { background:#ABFEDF;}
+	100% { background:#CF0;}
+	}
+@keyframes col2 {
+	0%{ background:#ABFEDF;}
+	50% { background:#FFB5BF;}
+	100%{ background:#ABFEDF;}
+	}
+	
+@keyframes col3 {
+	0%{ background:#FFB5B5;}
+	50% { background:#939;}
+	100%{ background:#FFB5B5;}
+	}
+@keyframes col4 {
+	0%{ background:#F9F;}
+	50% { background:#CF0;}
+	100%{ background:#F9F;}
+	}
+@keyframes r0 {
+	0% { width:26px; height:26px; border:2px #FFC solid; position:absolute; border-radius:50%; top:57px; left:57px; }
+	25% { width:28px; height:28px; border:3px #FFC solid; position:absolute; border-radius:50%; top:56px; left:56px; }
+	50% { width:30px; height:30px; border:4px #FFC solid; position:absolute; border-radius:50%; top:55px; left:55px; }
+	75% { width:28px; height:28px; border:3px #FFC solid; position:absolute; border-radius:50%; top:56px; left:56px; }
+	100% { width:26px; height:26px; border:2px #FFC solid; position:absolute; border-radius:50%; top:57px; left:57px; }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

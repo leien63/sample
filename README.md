@@ -1,1 +1,15 @@
-# sample
+<h2>极客学院毕业设计简介</h2>
+<hr>
+<h3>主要功能页面有：</h3>
+<p>借书页面:bring.html</p>
+<p>还书页面:return.html</p>
+<p>联系客服:contact.html</p>
+<hr>
+<h3>主要知识面有：</h3>
+<p>CSS3</p>
+<p>html</p>
+<p>原生JS</p>
+<p>bootstrap</p>
+<p>JQuery</p>
+<p>Ajax+php</p>
+<p>构建工具（FIS3）</p>
